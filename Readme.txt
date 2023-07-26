@@ -9,7 +9,7 @@
    ```
    pip install pillow pytesseract googletrans==4.0.0-rc1
    ```
-3. Install Tesseract OCR on your machine. You can download the installer from the official GitHub repository: https://github.com/tesseract-ocr/tesseract
+3. Install Tesseract OCR on your machine. You can download the installer from the official GitHub repository:    https://github.com/tesseract-ocr/tesseract
 
 4. After installing Tesseract OCR, set the Tesseract path in the script by modifying the line `pytesseract.pytesseract.tesseract_cmd` to point to the location where Tesseract is installed on your machine. 
   For example:
