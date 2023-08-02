@@ -50,6 +50,11 @@ if __name__ == "__main__":
                 # Save the translated text as an image
                 output_file = os.path.splitext(os.path.basename(input_file))[0] + "_translated.png"
                 save_text_as_image(translated_text, output_file)
+
+                # Show the translated text on the output screen
+                print("Translated Text:")
+                print(translated_text)
+
             else:
                 print("Translation failed.")
         else:
